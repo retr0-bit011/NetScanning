@@ -1,20 +1,13 @@
-#NetScanning - Network Scanner
+# **NetScanning - Escáner de Red**
 
-**NetScanning** is a Python tool for scanning networks, identifying active hosts, and analyzing 
-open ports.Can be used for network auditing, for quick and easy scanning
+**NetScanning** es una herramienta en Python diseñada para escanear redes, identificar hosts activos y analizar puertos abiertos. Es ideal para auditorías de red, permitiendo escaneos rápidos y sencillos.
 
+## **Características Principales**
+- **Detección de hosts** en la red.
+- **Escaneo de puertos abiertos** en dispositivos detectados.
+- Uso de las librerías `socket` y `subprocess` para la identificación de servicios.
+- **Interfaz sencilla** y fácil de usar.
 
-## Features 
--Discovery of hosts on the network. 
--Scanning of open ports on detected devices. 
--Use of 'socket' and 'subprocess' for service discovery. 
--Simple interface.
-
-## Way of Use:
- Run the following command in the terminal: 
-python3 NetScanning.py
-Then enter the IP range
-
-##Requirements:
--Python 3.x
--Modules socket, subprocess, argparse
+## **Modo de Uso**
+1. Ejecuta el siguiente comando en la terminal:
+   python3 NetScanning.py
